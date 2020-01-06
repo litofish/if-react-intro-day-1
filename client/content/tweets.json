@@ -6,6 +6,7 @@
     "user_profile_photo": "https://api.adorable.io/avatars/64/1",
     "content": "Giving a talk at the Impact Fellowship today. Feeling excited!",
     "likes": 2,
+    "is_liked": false,
     "comments": [
       {
         "id": 1,
@@ -30,6 +31,7 @@
     "user_profile_photo": "https://api.adorable.io/avatars/64/2",
     "content": "Could use a swim today",
     "likes": 5,
+    "is_liked": false,
     "comments": []
   },
   {
@@ -39,6 +41,7 @@
     "user_profile_photo": "https://api.adorable.io/avatars/64/3",
     "content": "A little warm in NYC lately",
     "likes": 0,
+    "is_liked": false,
     "comments": []
   },
   {
@@ -48,6 +51,7 @@
     "user_profile_photo": "https://api.adorable.io/avatars/64/4",
     "content": "Plug. Check me out in theaters March 2020",
     "likes": 87,
+    "is_liked": false,
     "comments": []
   },
   {
@@ -57,6 +61,7 @@
     "user_profile_photo": "https://api.adorable.io/avatars/64/5",
     "content": "TFW you find a shoe in your size!!",
     "likes": 0,
+    "is_liked": false,
     "comments": []
   }
 ]

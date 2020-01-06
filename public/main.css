@@ -19,3 +19,7 @@ h1 {
   width: 60vw;
   min-width: 480px;
 }
+
+.tweet-card {
+  width: 100%;
+}

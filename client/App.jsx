@@ -6,9 +6,8 @@ const App = () => {
       <div>
         Hm... I think you could add some components to make this view more
         interesting
+        {/* Add your feed */}
       </div>
-      {/* Add a home bar */}
-      {/* Add your feed */}
     </div>
   );
 };

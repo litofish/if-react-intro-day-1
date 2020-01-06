@@ -30,9 +30,12 @@ This starter pack comes with the following:
    - You'll want to maintain this data as state.
      - But wait! The `<App />` component is currently a functional component. Let's turn this into a class component and assign the array as a property of your state `this.state`.
 
-3. Now that you have this data in your state, render it! Remember, you have access to some helper classes to style your feed.
+3. Now that you have this data in your state, render it. Remember, you have access to some helper classes to style your feed.
 
    - The `map` method might be helpful.
+   - Do not worry about rendering out any links for now
+   - If a tweet is not liked, render an empty heart
+   - If a tweet is liked, render a red heart
 
 4. We want to introduce some interactivity to this page.
 
