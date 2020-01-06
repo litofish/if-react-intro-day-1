@@ -15,6 +15,7 @@ h1 {
   font-size: 2em;
 }
 
+<<<<<<< HEAD
 #app {
   display: flex;
   justify-content: center;
@@ -61,4 +62,42 @@ h1 {
 
 .green {
   background-color: #008000;
+=======
+.container {
+  width: 60vw;
+  min-width: 480px;
+}
+
+.tweet-card {
+  width: 100%;
+  display: flex;
+  /* css rules for card */
+}
+
+.tweet-card .profile-photo {
+  flex-grow: 1;
+}
+
+.tweet-card .content {
+  flex-grow: 7;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tweet-card .content div {
+  width: 100%;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.fas.fa-heart {
+  color: gray;
+}
+
+.fas.fa-heart.liked {
+  color: red;
+>>>>>>> 862627b773dfd39a7138d96b641ff157a42c8ac0
 }
