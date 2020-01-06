@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "build-watch": "webpack -w",
-    "start": "http-server",
+    "start": "npm run build-watch & http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
