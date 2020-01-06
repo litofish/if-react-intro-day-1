@@ -1,9 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', Helvetica, 'Lucida Grande', sans-serif;
+}
+
 body {
   text-align: center;
   background-color: #282c34;
   color: white;
+  height: 100vh;
 }
 
 h1 {
   color: #61dafb;
+  font-size: 2em;
+}
+
+button {
 }
