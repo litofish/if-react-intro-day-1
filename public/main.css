@@ -14,3 +14,8 @@ h1 {
   color: #61dafb;
   font-size: 2em;
 }
+
+.container {
+  width: 60vw;
+  min-width: 480px;
+}
