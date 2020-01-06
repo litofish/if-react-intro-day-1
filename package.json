@@ -1,0 +1,36 @@
+{
+  "name": "if-react-intro-day-1",
+  "version": "1.0.0",
+  "description": "Mini boilerplate for React",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch-client": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamannamai/if-react-intro-day-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamannamai/if-react-intro-day-1/issues"
+  },
+  "homepage": "https://github.com/iamannamai/if-react-intro-day-1#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-stage-2": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}

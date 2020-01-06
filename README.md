@@ -1,1 +1,3 @@
-# if-react-intro-day-1
+# Intro to React - Demos
+
+Boilerplate to demo some code in React
