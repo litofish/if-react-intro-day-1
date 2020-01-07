@@ -74,6 +74,9 @@ Day 2 will cover a few more basic principles:
 
    - Instead of loading in or hardcoding our tweets, we'll use a lifecycle hook to load our data once our component renders and mounts: `componentDidMount()`
    - Your page should be functioning the same way it was before
+   - `/posts` will grab you all posts without comments
+   - `/posts/{post_id}/comments` will grab the post plus its comments
+   - `/posts?includeComments=true` will grab all posts and any comments
 
 3. A newsfeed is kind of boring if you can't contribute and express your thoughts. Let's add a form to the top of our feed so that we can do just that.
 

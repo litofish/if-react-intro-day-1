@@ -26,7 +26,7 @@ const Tweet = props => {
         <div onClick={() => toggleLike(id)}>
           {/* the "class" attribute is reserved for html, so React allows you to apply classes to elements by assigning them to "className" */}
           <i className={`fa fa-heart ${is_liked ? 'liked' : ''}`} />
-          {likes}
+          {likes > 0}
         </div>
       </div>
     </div>
